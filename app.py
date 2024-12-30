@@ -6,13 +6,9 @@ from PIL import Image
 import numpy as np
 import pandas as pd
 import os
-import dotenv
-
-# Load environment variables
-dotenv.load_dotenv()
 
 # Prepare data
-model_path = os.getenv("MODEL_PATH")
+model_path = os.getenv("models/20241230-095627-full-dataset.h5")
 labels_df = pd.read_csv('labels.csv')
 labels_array = np.array(labels_df['breed'])
 unique_breeds = np.unique(labels_array)
