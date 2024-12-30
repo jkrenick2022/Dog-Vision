@@ -8,7 +8,7 @@ import pandas as pd
 import os
 
 # Prepare data
-model_path = os.getenv("models/20241230-095627-full-dataset.h5")
+model_path = "models/20241230-095627-full-dataset.h5"
 labels_df = pd.read_csv('labels.csv')
 labels_array = np.array(labels_df['breed'])
 unique_breeds = np.unique(labels_array)
