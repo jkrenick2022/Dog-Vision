@@ -29,5 +29,5 @@ Train a model with an accuracy score of at least 93% (subject to evaluation of m
 ## Setup and Installation
 1. Clone this repository
 2. Install required packages: `pip install -r requirements.txt`
-3. Run the Jupyter notebook: `jupyter notebook main.ipynb`
+3. Run the Jupyter notebook: `jupyter notebook dog-vision.ipynb`
 
